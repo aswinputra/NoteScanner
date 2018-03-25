@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/adapterWhite"
+    android:layout_margin="@dimen/margin_recycler_view"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
+    android:elevation="@dimen/elevation_size"
+    android:id="@+id/relative_layout_adapter">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/adapter_note_title"
+        android:text="@string/title"
+        android:textStyle="bold"
+        android:textSize="@dimen/note_title_size"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_horizontal_margin"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/adapter_note_content"
+        android:text="@string/note"
+        android:textSize="15sp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:layout_below="@id/adapter_note_title"/>
+</RelativeLayout>

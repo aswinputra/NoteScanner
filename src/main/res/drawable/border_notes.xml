@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="@color/adapterBorderGrey"/>
+
+    <stroke android:width="@dimen/border_stroke_size"
+            android:color="@color/adapterBlue"/>
+
+    <padding
+            android:left="@dimen/padding_adapter"
+            android:right="@dimen/padding_adapter"
+            android:top="@dimen/padding_adapter"
+            android:bottom="@dimen/padding_adapter" />
+    <corners
+            android:radius="5dp" />
+</shape>
